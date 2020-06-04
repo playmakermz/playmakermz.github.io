@@ -1,0 +1,43 @@
+body,
+html {
+    height: auto;
+    /* The image used */
+    background-image: url("open.jpg");
+
+    /* Full height */
+    height: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* di atas di gunakan untuk background image  */
+/* selesai  */
+
+.jumbotron-fluid {
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;
+    background-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Coustard');
+
+.text {
+    font-family: "Coustard", serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(13, 13, 13);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+@media (max-width: 767.98px) {
+    .jumbotron-fluid {
+        width: auto;
+    }
+}
